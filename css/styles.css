@@ -1468,6 +1468,13 @@ img {
     display: flex;
     align-items: baseline;
   }
+  @media screen and (max-width:1157px) {
+    .footer-container {
+            gap: 72px 24px;
+            flex-wrap: wrap;
+            max-width: 550px;
+        }
+  }
 
   .page-footer-title {
     width: 264px;
@@ -1837,11 +1844,7 @@ img {
   .page-footer-two {
     padding: 96px 0;
   }
-  .footer-container {
-    gap: 72px 24px;
-    flex-wrap: wrap;
-    max-width: 550px;
-  }
+ 
 }
 /* ================================================= DESKTOP 👇 ========================================= */
 @media screen and (min-width: 1158px) {
